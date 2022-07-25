@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="-20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/henwithbabiesimg" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:fontFamily="@font/rockwell"
+        android:gravity="center"
+        android:text="Poultry Farm\nManagement\nSystem"
+        android:textAllCaps="true"
+        android:textColor="@color/primary_text"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="Email"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/ettxt_loginid"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ettxt_loginid"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/ettxt_loginid"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary_main"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="Password"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/ettxt_loginpassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ettxt_loginpassword"
+        app:layout_constraintTop_toBottomOf="@+id/ettxt_loginid" />
+
+    <EditText
+        android:id="@+id/ettxt_loginpassword"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary_main"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/ettxt_loginid"
+        app:layout_constraintStart_toStartOf="@+id/ettxt_loginid"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/login_btn_main"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:background="@drawable/primary_btn"
+        android:textSize="18sp"
+        app:backgroundTint="?attr/colorControlNormal"
+        app:backgroundTintMode="add"
+        app:layout_constraintEnd_toEndOf="@+id/ettxt_loginpassword"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="@+id/ettxt_loginpassword"
+        app:layout_constraintTop_toBottomOf="@+id/ettxt_loginpassword" />
+
+    <TextView
+        android:id="@+id/txt_gotosignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="Don't Have an Account! Signup"
+        android:textColor="@color/primary_text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/login_btn_main"
+        app:layout_constraintStart_toStartOf="@+id/login_btn_main"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn_main" />
+</androidx.constraintlayout.widget.ConstraintLayout>

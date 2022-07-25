@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/oe_batch_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/oe_totalchicks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/oe_batch_name"
+        app:layout_constraintStart_toStartOf="@+id/oe_batch_name"
+        app:layout_constraintTop_toBottomOf="@+id/oe_batch_name" />
+
+    <TextView
+        android:id="@+id/oe_totalcst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/oe_totalchicks"
+        app:layout_constraintStart_toStartOf="@+id/oe_totalchicks"
+        app:layout_constraintTop_toBottomOf="@+id/oe_totalchicks" />
+
+    <TextView
+        android:id="@+id/oe_totalfeedcst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/oe_totalcst"
+        app:layout_constraintStart_toStartOf="@+id/oe_totalcst"
+        app:layout_constraintTop_toBottomOf="@+id/oe_totalcst" />
+
+    <TextView
+        android:id="@+id/oe_totalvaccinecst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/oe_totalfeedcst"
+        app:layout_constraintStart_toStartOf="@+id/oe_totalfeedcst"
+        app:layout_constraintTop_toBottomOf="@+id/oe_totalfeedcst" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/primary_bg"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oe_totalvaccinecst"></LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

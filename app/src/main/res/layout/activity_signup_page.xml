@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/henwithbabiesimg" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/rockwell"
+                android:text="REGISTER HERE"
+                android:textColor="@color/primary_text"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Name"
+                android:fontFamily="@font/rockwell"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/et_suName"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/et_suName"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <EditText
+                android:id="@+id/et_suName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/primary_main"
+                android:ems="10"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/rockwell"
+                android:text="Email"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/et_suEmail"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/et_suEmail"
+                app:layout_constraintTop_toBottomOf="@+id/et_suName" />
+
+            <EditText
+                android:id="@+id/et_suEmail"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/primary_main"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                app:layout_constraintEnd_toEndOf="@+id/et_suName"
+                app:layout_constraintStart_toStartOf="@+id/et_suName"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/rockwell"
+                android:text="Password"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/et_suPassword"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/et_suPassword"
+                app:layout_constraintTop_toBottomOf="@+id/et_suEmail" />
+
+            <EditText
+                android:id="@+id/et_suPassword"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/primary_main"
+                android:ems="10"
+                android:inputType="textPassword"
+                app:layout_constraintEnd_toEndOf="@+id/et_suEmail"
+                app:layout_constraintStart_toStartOf="@+id/et_suEmail"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <TextView
+                android:id="@+id/txt_gotologin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/rockwell"
+                android:text="Already Have an Account! Login"
+                android:textColor="@color/primary_text"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btn_createacc"
+                app:layout_constraintStart_toStartOf="@+id/btn_createacc"
+                app:layout_constraintTop_toBottomOf="@+id/btn_createacc" />
+
+            <Button
+                android:id="@+id/btn_createacc"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/primary_btn"
+                android:text="Signup"
+                android:textSize="18sp"
+                app:backgroundTint="?attr/colorControlNormal"
+                app:backgroundTintMode="add"
+                app:layout_constraintEnd_toEndOf="@+id/spinner_role"
+                app:layout_constraintStart_toStartOf="@+id/spinner_role"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_role" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp"
+                android:fontFamily="@font/rockwell"
+                android:text="Role"
+                app:layout_constraintEnd_toEndOf="@+id/spinner_role"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/spinner_role"
+                app:layout_constraintTop_toBottomOf="@+id/et_suPassword" />
+
+            <Spinner
+                android:id="@+id/spinner_role"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="@+id/et_suPassword"
+                app:layout_constraintStart_toStartOf="@+id/et_suPassword"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

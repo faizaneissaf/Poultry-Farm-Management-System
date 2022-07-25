@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/los_bbname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/los_bbtotalqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/los_bbname"
+        app:layout_constraintStart_toStartOf="@+id/los_bbname"
+        app:layout_constraintTop_toBottomOf="@+id/los_bbname" />
+
+    <TextView
+        android:id="@+id/los_ageindays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/los_bbtotalqty"
+        app:layout_constraintStart_toStartOf="@+id/los_bbtotalqty"
+        app:layout_constraintTop_toBottomOf="@+id/los_bbtotalqty" />
+
+    <TextView
+        android:id="@+id/los_avgbodyweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/los_ageindays"
+        app:layout_constraintStart_toStartOf="@+id/los_ageindays"
+        app:layout_constraintTop_toBottomOf="@+id/los_ageindays" />
+
+    <Button
+        android:id="@+id/los_putonsale_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/primary_btn"
+        android:text="Put On Sale"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:backgroundTint="?attr/colorControlNormal"
+        app:backgroundTintMode="add"
+        app:layout_constraintEnd_toEndOf="@+id/et_pricepertray"
+        app:layout_constraintStart_toStartOf="@+id/et_pricepertray"
+        app:layout_constraintTop_toBottomOf="@+id/et_pricepertray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/primary_bg"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/los_putonsale_btn"></LinearLayout>
+
+    <EditText
+        android:id="@+id/et_pricepertray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:backgroundTint="@color/primary_bg"
+        android:textColorHint="@color/primary_text"
+        android:hint="Price Per Tray"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/los_avgbodyweight"
+        app:layout_constraintStart_toStartOf="@+id/los_avgbodyweight"
+        app:layout_constraintTop_toBottomOf="@+id/los_avgbodyweight" />
+</androidx.constraintlayout.widget.ConstraintLayout>

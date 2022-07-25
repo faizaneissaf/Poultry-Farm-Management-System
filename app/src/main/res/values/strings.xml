@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PoultryFarmManagementSystem</string>
+    <!--    Ip Address-->
+    <string name="ip">http://192.168.00.00</string>
+    <!--    Account Type-->
+    <string-array name="acc_type">
+        <item>Customer</item>
+        <item>Owner</item>
+    </string-array>
+</resources>

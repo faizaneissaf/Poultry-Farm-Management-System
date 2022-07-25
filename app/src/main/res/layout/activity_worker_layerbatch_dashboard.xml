@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Worker.Worker_Layerbatch_dashboard">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/primary_bg"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lb_titletxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/rockwell"
+                android:text="Welcome Back !"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/lnbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/notificationicon" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/batches_box"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            android:paddingTop="0dp"
+            app:srcCompat="@drawable/broilersimg" />
+
+        <LinearLayout
+            android:id="@+id/btn_batches"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/primary_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/layercurrent_statusbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Current Status"
+                android:textColor="@color/white"
+                android:textSize="21sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Addnewbatch_box"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/batches_box"
+        app:layout_constraintStart_toStartOf="@+id/batches_box"
+        app:layout_constraintTop_toBottomOf="@+id/batches_box">
+
+        <ImageView
+            android:id="@+id/wimageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            android:paddingTop="0dp"
+            app:srcCompat="@drawable/broilersbatchimg" />
+
+        <LinearLayout
+            android:id="@+id/btn_newbatches"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/primary_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/layerrecord_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Record"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/vaccination_box"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/Addnewbatch_box"
+        app:layout_constraintStart_toStartOf="@+id/Addnewbatch_box"
+        app:layout_constraintTop_toBottomOf="@+id/Addnewbatch_box">
+
+        <ImageView
+            android:id="@+id/vaccineimgview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            android:paddingTop="0dp"
+            app:srcCompat="@drawable/vaccinationimgchick" />
+
+        <LinearLayout
+            android:id="@+id/btn_vaccine"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/primary_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/layervaccination_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Vaccination"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

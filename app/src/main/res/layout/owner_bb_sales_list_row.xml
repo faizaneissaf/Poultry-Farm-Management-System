@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/bos_bbname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bos_bbtotalqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/bos_bbname"
+        app:layout_constraintStart_toStartOf="@+id/bos_bbname"
+        app:layout_constraintTop_toBottomOf="@+id/bos_bbname" />
+
+    <TextView
+        android:id="@+id/bos_ageindays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/bos_bbtotalqty"
+        app:layout_constraintStart_toStartOf="@+id/bos_bbtotalqty"
+        app:layout_constraintTop_toBottomOf="@+id/bos_bbtotalqty" />
+
+    <TextView
+        android:id="@+id/bos_avgbodyweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/bos_ageindays"
+        app:layout_constraintStart_toStartOf="@+id/bos_ageindays"
+        app:layout_constraintTop_toBottomOf="@+id/bos_ageindays" />
+
+    <Button
+        android:id="@+id/bos_putonsale_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/primary_btn"
+        android:text="Put On Sale"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:backgroundTint="?attr/colorControlNormal"
+        app:backgroundTintMode="add"
+        app:layout_constraintEnd_toEndOf="@+id/bos_price_perchick"
+        app:layout_constraintStart_toStartOf="@+id/bos_price_perchick"
+        app:layout_constraintTop_toBottomOf="@+id/bos_price_perchick" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/primary_bg"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bos_putonsale_btn"></LinearLayout>
+
+    <EditText
+        android:id="@+id/bos_price_perchick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Price Per Chick"
+        android:textColorHint="@color/primary_text"
+        android:backgroundTint="@color/primary_bg"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/bos_avgbodyweight"
+        app:layout_constraintStart_toStartOf="@+id/bos_avgbodyweight"
+        app:layout_constraintTop_toBottomOf="@+id/bos_avgbodyweight" />
+</androidx.constraintlayout.widget.ConstraintLayout>

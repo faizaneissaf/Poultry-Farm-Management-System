@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/drawable/calender_icon.xml" value="0.2713541666666667" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/drawable/primary_btn.xml" value="0.2713541666666667" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/drawable/white_horizontal_line.xml" value="0.2713541666666667" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_admin_customers.xml" value="0.22780797101449277" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.22780797101449277" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_admin_owners.xml" value="0.22780797101449277" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_admin_poultries.xml" value="0.22780797101449277" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_admin_workers.xml" value="0.22780797101449277" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_cusotmer_dashboard.xml" value="0.21557971014492755" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_customer_broilers_sale.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_customer_eggs_sale.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_login_page.xml" value="0.213768115942029" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_main.xml" value="0.213768115942029" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_owner_addworker.xml" value="0.2391304347826087" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_owner_broilers_on_sale.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_owner_dashboard.xml" value="0.2391304347826087" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_owner_pltry_dashboard.xml" value="0.22" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_owner_pltry_expenditure.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_owner_sales_page.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_owner_workers.xml" value="0.2391304347826087" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_owners_layers_on_sale.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_signup_page.xml" value="0.213768115942029" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_worker_add_new_batch_layer.xml" value="0.23550724637681159" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_worker_addnew_batch.xml" value="0.23550724637681159" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_worker_batch_dashboard.xml" value="0.2391304347826087" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_worker_broilerbatch_record.xml" value="0.22826086956521738" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_worker_broilerbatch_vaccination.xml" value="0.22826086956521738" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_worker_broilerbatchcurrentstatus.xml" value="0.22826086956521738" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_worker_dashboard.xml" value="0.2391304347826087" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_worker_layerbatch_dashboard.xml" value="0.22826086956521738" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_worker_layerbatch_record.xml" value="0.22826086956521738" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_worker_layerbatchcurrentstatus.xml" value="0.20697463768115942" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/activity_worker_layervaccination.xml" value="0.22826086956521738" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/addpoultryfarm_form.xml" value="0.2391304347826087" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/admin_customers_list_tbl_row.xml" value="0.22780797101449277" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/admin_owners_list_row.xml" value="0.22780797101449277" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/admin_poultries_list_row.xml" value="0.22780797101449277" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/admin_worker_list_tbl_row.xml" value="0.22780797101449277" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/batchchoicedialog.xml" value="0.23550724637681159" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/c_broilers_list_row.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/c_eggs_list_row.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/customer_poultries_row_list.xml" value="0.22418478260869565" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/owner_batchsale_selection.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/owner_bb_sales_list_row.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/owner_exp_list_row.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/owner_lb_sales_list_row.xml" value="0.2427536231884058" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/owner_pltries_list_row.xml" value="0.2391304347826087" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/owner_worker_list_row.xml" value="0.2391304347826087" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/worker_broilerbatch_list_row.xml" value="0.23550724637681159" />
+        <entry key="..\:/FreeLance-Projects/Apps/PoultryFarmManagementSystem/app/src/main/res/layout/worker_layerbatch_list_row.xml" value="0.23550724637681159" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/ce_batchname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        android:fontFamily="@font/rockwell"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ce_eggstrays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        android:fontFamily="@font/rockwell"
+        app:layout_constraintEnd_toEndOf="@+id/ce_batchname"
+        app:layout_constraintStart_toStartOf="@+id/ce_batchname"
+        app:layout_constraintTop_toBottomOf="@+id/ce_batchname" />
+
+    <EditText
+        android:id="@+id/ce_customername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary_main"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView79" />
+
+    <EditText
+        android:id="@+id/ce_customeradd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary_main"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/ce_customername"
+        app:layout_constraintStart_toStartOf="@+id/ce_customername"
+        app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+    <EditText
+        android:id="@+id/ce_orderqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary_main"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/ce_customeradd"
+        app:layout_constraintStart_toStartOf="@+id/ce_customeradd"
+        app:layout_constraintTop_toBottomOf="@+id/textView81" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Your Name"
+        android:textColor="@color/primary_text"
+        android:textSize="14sp"
+        android:fontFamily="@font/rockwell"
+        app:layout_constraintEnd_toEndOf="@+id/ce_customername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ce_customername"
+        app:layout_constraintTop_toBottomOf="@+id/ce_pricepertray" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Delivery Address"
+        android:textColor="@color/primary_text"
+        android:textSize="14sp"
+        android:fontFamily="@font/rockwell"
+        app:layout_constraintEnd_toEndOf="@+id/ce_customeradd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ce_customeradd"
+        app:layout_constraintTop_toBottomOf="@+id/ce_customername" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Trays Quantity"
+        android:textColor="@color/primary_text"
+        android:textSize="14sp"
+        android:fontFamily="@font/rockwell"
+        app:layout_constraintEnd_toEndOf="@+id/ce_orderqty"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ce_orderqty"
+        app:layout_constraintTop_toBottomOf="@+id/ce_customeradd" />
+
+    <Button
+        android:id="@+id/btn_ce_order"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/primary_btn"
+        android:text="Order Now"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:backgroundTint="?attr/colorControlNormal"
+        app:backgroundTintMode="add"
+        app:layout_constraintEnd_toEndOf="@+id/ce_orderqty"
+        app:layout_constraintStart_toStartOf="@+id/ce_orderqty"
+        app:layout_constraintTop_toBottomOf="@+id/ce_orderqty" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/primary_bg"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ce_order"></LinearLayout>
+
+    <TextView
+        android:id="@+id/ce_pricepertray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        android:fontFamily="@font/rockwell"
+        app:layout_constraintEnd_toEndOf="@+id/ce_eggstrays"
+        app:layout_constraintStart_toStartOf="@+id/ce_eggstrays"
+        app:layout_constraintTop_toBottomOf="@+id/ce_eggstrays" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

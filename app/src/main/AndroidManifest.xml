@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.poultryfarmmanagementsystem">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PoultryFarmManagementSystem"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Owner.Owner_salesPage"
+            android:exported="true" />
+        <activity
+            android:name=".Customer.Customer_BroilersSale"
+            android:exported="true" />
+        <activity
+            android:name=".Customer.Customer_EggsSale"
+            android:exported="true" />
+        <activity
+            android:name=".Owner.Owners_layersOn_sale"
+            android:exported="true" />
+        <activity
+            android:name=".Owner.Owner_broilersOn_sale"
+            android:exported="true" />
+        <activity
+            android:name=".Owner.Owner_PltryExpenditure"
+            android:exported="true" />
+        <activity
+            android:name=".Customer.Cusotmer_Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.Admin_Customers"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.Admin_Poultries"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.Admin_Workers"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.Admin_Owners"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.Admin_Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Worker.Worker_BroilerbatchVaccination"
+            android:exported="true" />
+        <activity
+            android:name=".Worker.Worker_layervaccination"
+            android:exported="true" />
+        <activity
+            android:name=".Worker.Worker_Layerbatchcurrentstatus"
+            android:exported="true" />
+        <activity
+            android:name=".Worker.Worker_broilerbatchcurrentstatus"
+            android:exported="true" />
+        <activity
+            android:name=".Worker.Worker_layerbatchRecord"
+            android:exported="true" />
+        <activity
+            android:name=".Worker.Worker_broilerbatchRecord"
+            android:exported="true" />
+        <activity
+            android:name=".Worker.Worker_Layerbatch_dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Worker.Worker_AddNewBatchLayer"
+            android:exported="true" />
+        <activity
+            android:name=".Worker.Worker_AddnewBatch"
+            android:exported="true" />
+        <activity
+            android:name=".Worker.Worker_Batch_Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Worker.Worker_Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Owner.Owner_Addworker"
+            android:exported="true" />
+        <activity
+            android:name=".Owner.Owner_workers"
+            android:exported="true" />
+        <activity
+            android:name=".Owner.Owner_pltry_Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Owner.Owner_Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".SignupPage"
+            android:exported="true" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

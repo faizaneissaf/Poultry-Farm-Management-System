@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/cb_batchname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cb_totalavbqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/cb_batchname"
+        app:layout_constraintStart_toStartOf="@+id/cb_batchname"
+        app:layout_constraintTop_toBottomOf="@+id/cb_batchname" />
+
+    <EditText
+        android:id="@+id/cb_customername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary_main"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView79" />
+
+    <EditText
+        android:id="@+id/cb_customeradd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary_main"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/cb_customername"
+        app:layout_constraintStart_toStartOf="@+id/cb_customername"
+        app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+    <EditText
+        android:id="@+id/cb_orderqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary_main"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/cb_customeradd"
+        app:layout_constraintStart_toStartOf="@+id/cb_customeradd"
+        app:layout_constraintTop_toBottomOf="@+id/textView81" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="Your Name"
+        android:textColor="@color/primary_text"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/cb_customername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cb_customername"
+        app:layout_constraintTop_toBottomOf="@+id/cb_avgwingm" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="Delivery Address"
+        android:textColor="@color/primary_text"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/cb_customeradd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cb_customeradd"
+        app:layout_constraintTop_toBottomOf="@+id/cb_customername" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="Chicks Quantity"
+        android:textColor="@color/primary_text"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/cb_orderqty"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cb_orderqty"
+        app:layout_constraintTop_toBottomOf="@+id/cb_customeradd" />
+
+    <Button
+        android:id="@+id/btn_cb_ordernow"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/primary_btn"
+        android:text="Order Now"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:backgroundTint="?attr/colorControlNormal"
+        app:backgroundTintMode="add"
+        app:layout_constraintEnd_toEndOf="@+id/cb_orderqty"
+        app:layout_constraintStart_toStartOf="@+id/cb_orderqty"
+        app:layout_constraintTop_toBottomOf="@+id/cb_orderqty" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/primary_bg"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cb_ordernow"></LinearLayout>
+
+    <TextView
+        android:id="@+id/cb_priceperchick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/cb_totalavbqty"
+        app:layout_constraintStart_toStartOf="@+id/cb_totalavbqty"
+        app:layout_constraintTop_toBottomOf="@+id/cb_totalavbqty" />
+
+    <TextView
+        android:id="@+id/cb_avgwingm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rockwell"
+        android:text="TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/cb_priceperchick"
+        app:layout_constraintStart_toStartOf="@+id/cb_priceperchick"
+        app:layout_constraintTop_toBottomOf="@+id/cb_priceperchick" />
+</androidx.constraintlayout.widget.ConstraintLayout>
